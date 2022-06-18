@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <h4>Jump to contents</h4>
+        <ul class="ul1">
+            <li><a href="#problem3">Problem 3</a></li>
+            <li><a href="#problem4">Problem 4</a></li>
+            <li><a href="#problem5">Problem 5</a></li>
+            <li><a href="#problem6">Problem 6</a></li>
+            <li><a href="#problem7">Problem 7</a></li>
+            <li><a href="#problem8">Problem 8</a></li>
+            <li><a href="#problem9">Problem 9</a></li>
+            <li><a href="#problem10">Problem 10</a></li>
+            <li><a href="#problem11">Problem 11</a></li>
+        </ul>
+    </header>
+
+    <!--Problem 3:  Design a contact us form with all fields as required. -->
+
+    <form id="problem3">
+        <p><strong>Problem Statement 3: </strong>Design a contact us form with all fields as required.</p>
+        <div class="formele">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required size="20">
+            <label for="num">Mobile</label>
+            <input type="number" id="num" placeholder="Enter your phone number" required min="10" size="10">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Enter your e-mail ID" required size="20">
+            <label for="Additional">Additional info on your Query</label>
+            <textarea name="" id="Additional" cols="20" rows="10" placeholder="Enter your Query" required></textarea>
+            <input type="button" value="Submit a request">
+        </div>
+    </form>
+    <hr>
+
+    <!-- Problem 4: Use certain HTML elements to display the following in a HTML page. -->
+
+    <div id="problem4">
+        <p><strong>Problem Statement 4: </strong>Use certain HTML elements to display the following in a HTML page.</p>
+        <ul>
+            <li>Programming Language
+                <ul>
+                    <li>Javascript</li>
+                        <ul class="ul2">
+                            <li>Angular</li>
+                            <li>React</li>
+                            <li>Vue.js</li>
+                        </ul>
+                </ul>
+                <ul>
+                    <li>Python</li>
+                        <ul class="ul3">
+                            <li>Django Framework</li>
+                            <li>Flask Framework</li>
+                        </ul>
+                </ul>
+                <ul>
+                    <li>Java</li>
+                        <ul class="ul4">
+                            <li>Spring</li>
+                            <li>Maven</li>
+                            <li>Hibernate</li>
+                        </ul>
+                </ul>
+            </li>
+            <li>Database
+                <ul>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>Cansandra</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <hr>
+
+
+    <!-- Problem 5: Create an element that helps you to open the https://google.com in separate new tab. -->
+
+    <div id="problem5">
+        <p><strong>Problem Statement 5: </strong>Create an element that helps you to open the https://google.com in separate new tab.</p>
+        <!-- <p><a href="" target="_blank"></a></p> -->
+        <a href="https://google.com" target="_blank"><button style="cursor: pointer;">Click me to open Google in a new tab</button></a>
+    </div>
+    <hr>
+
+
+    <!-- Problem 6: In the form, add two radio buttons with grouping them for employee type(Salaried and own business) -->
+
+    <p><strong>Problem Statement 6: </strong>In the form, add two radio buttons with grouping them for employee type(Salaried and own business)</p>
+    <div id="problem6">
+        <form class="foemelel2">
+            <div>
+                <label for="sal">Salaried</label>
+                <input type="radio" value="Salaried" id="sal" name="sele">
+            </div>
+            <div>
+                <label for="sal">Own business</label>
+                <input type="radio" value="Own business" id="own" name="sele">
+            </div>
+        </form>
+    </div>
+    <hr>
+
+
+    <!-- Problem 7: Design form shown in the link -->
+
+    <p><strong>Problem Statement 7: </strong>Design form shown in the link: (http://evc-cit.info/cit040/formguide/card_0.png)</p>
+    <div id="problem7" style="width: 500px; border: 2px solid black;">
+        <p class="inner" style="text-align: center; background-color: red; color: white;">Yes! I want to subscribe to <span style="font-style: italic;">Mag-O-Zine</span></p>
+        <div style="padding: 10px;">
+            <div style="display: flex; justify-content: space-between;">
+                <div style="display: flex; flex-direction: column;">
+                    <input style="border-bottom: 1px solid black; border-top: none; border-left: none; border-right: none;" type="text" id="fname">
+                    <label for="fname">First Name</label>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <input style="border-bottom: 1px solid black; border-top: none; border-left: none; border-right: none;" type="text" id="lname">
+                    <label for="lanme">Last Name</label>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <input style="border-bottom: 1px solid black; border-top: none; border-left: none; border-right: none;" type="text" id="add">
+                <label for="add">Address</label>
+            </div>
+            <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                <div style="display: flex; flex-direction: column;">
+                    <input style="border-bottom: 1px solid black; border-top: none; border-left: none; border-right: none;" type="text" id="cit" size="10">
+                    <label for="cit">City</label>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <input style="border-bottom: 1px solid black; border-top: none; border-left: none; border-right: none;" type="text" id="stat" size="10">
+                    <label for="stat">State</label>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <input style="border-bottom: 1px solid black; border-top: none; border-left: none; border-right: none;" type="text" id="zip" size="10">
+                    <label for="zip">Zip</label>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <p><strong>Subscribe for: </strong></p>
+                <div>
+                    <input type="radio" id="year1" name="lll">
+                    <label for="year1">1 year ($19.95)</label>
+                </div>
+                <div>
+                    <input type="radio" id="year2" name="lll">
+                    <label for="year2">2 year ($35.00)</label>
+                </div>
+            </div>
+            <div>
+                <p><strong>Send me more information about:</strong></p>
+                <div style="display: flex; flex-direction: column;">
+                    <div>
+                        <input type="checkbox" id="ww" >
+                        <label for="ww">Computer-zine</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ee" >
+                        <label for="ee">Fishing-zine</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="rr" >
+                        <label for="rr">Cat-O-zine</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+    <!-- Pronlem 8: Use the table tag to design given image  -->
+
+    
+    <p><strong>Problem Statement 8: </strong>Use the table tag to design given image: (https://www.bapugraphics.com/assets/img/port_upload_dir/table-4.jpg)</p>
+    <div id="problem8" style="width: 500px;">
+        <h3 style="text-align: center;">Health Chart</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td rowspan="2">State of Health</td>
+                    <td colspan="2">Fasting Value</td>
+                    <td>After Eating</td>
+                </tr>
+                <tr>
+                    <td>Minimum</td>
+                    <td>Maximun</td>
+                    <td>2 hours after eating</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Healthy</td>
+                    <td>70</td>
+                    <td>100</td>
+                    <td>Less than 140</td>
+                </tr>
+                <tr>
+                    <td>Pre-Diabetes</td>
+                    <td>101</td>
+                    <td>126</td>
+                    <td>140-200</td> 
+                </tr>
+                <tr>
+                    <td>Diabetes</td>
+                    <td>More than 126</td>
+                    <td>N/A</td>
+                    <td>More than 200</td> 
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+
+
+    <!-- Problem 9: Write HTML input tags snippet to show default values for all Form elements. -->
+
+    <div id="problem9">
+        <p><strong>Problem Statement 9: </strong>Write HTML input tags snippet to show default values for all Form elements.</p>
+        <div style="width: 800px; background-color: wheat; border: 1px solid whitesmoke; ">
+            <p><pre>In order to show the default value for form element we use the value attribute in input elements.
+                The format used is: <span style="background-color: whitesmoke; color: black;"><%--input type="text" value="xyz"--%></span>
+This will set the default value as "xyz" to the input fiels when input fiels is loaded on page.
+As Depicted Below;
+            </pre></p>
+            <p style="text-align: center;"><input type="text" value="xyz"></p>
+        </div>
+    </div>
+
+
+    <!-- Problem 10: In your, HTML page add the below line and Highlight it without using any CSS. -->
+
+    <p><strong>Problem Statement 10: </strong>In your, HTML page add the below line and Highlight it without using any CSS</p>
+    <div id="problem10">
+        <p>The content showed next <mark>"HTML & CSS is awesome"</mark> is highlighted without using CSS</p>
+    </div>
+    <hr>
+
+
+    <!-- Problem 11: Create an HTML page, which should contain all types of input elements. -->
+
+    <p><strong>Problem Statement 11: </strong>Create an HTML page, which should contain all types of input elements</p>
+    <div id="problem11" style="border: 1px solid black; width: 600px; background-color: wheat;">
+        <p>Type on the field to analyze the difference in their behaviour</p>
+        <p><strong>Input type: Text     </strong> <input type="text" placeholder="This is text type input"></p>
+        <p><strong>Input type: Number   </strong> <input type="number" placeholder="This is number type input"></p>
+        <p><strong>Input type: Password </strong> <input type="password" placeholder="This is password type input"></p>
+        <p><strong>Input type: Button   </strong> <input type="button" placeholder="This is button type input" value="button"></p>
+        <p><strong>Input type: Reset    </strong> <input type="reset" placeholder="This is reste type input"></p>
+        <p><strong>Input type: Radio    </strong> <input type="radio" id="zzz"> <label for="zzz">This is radio type input</label></p>
+        <p><strong>Input type: Checkbox   </strong> <input type="checkbox"> <label for="zzz">This is checkbox type input</label></p>
+        <p><strong>Input type: Date   </strong> <input type="date" placeholder="This is date type input"></p>
+        <p><strong>Input type: Email   </strong> <input type="email" placeholder="This is email type input"></p>
+        <p><strong>Input type: Range   </strong> <input type="range" min="0" max="100" id="bbb"><label for="bbb">Select from 0-100 by sliding</label></p>
+        <p><strong>Input type: File   </strong> <input type="file" id="mmm"> <label for="mmm">This is file type input</label></p>
+    </div>
+    <hr>
+</body>
+</html>
+
+
+
+
